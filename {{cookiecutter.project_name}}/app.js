@@ -45,5 +45,5 @@ app.get('/', (req, res, next) => {
 })
 
 http.listen(port, () =>
-  console.log(`WEB server running on Port: ${port}!`)
+  console.log(`{{ cookiecutter.project_name }} running on Port: ${port}!`)
 );
